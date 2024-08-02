@@ -25,3 +25,10 @@
     padding: 8px;
     text-decoration: none;
 }
+
+.error {
+    text-align: center;
+    color: rgb(190, 74, 74);
+    margin-top: 25vh;
+    font-size: 2vh;
+}

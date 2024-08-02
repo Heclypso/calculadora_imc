@@ -11,6 +11,17 @@
     margin: 0 auto;
 }
 
+input {
+    width: 320px;
+    font-size: 16px;
+    height: 22px;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    margin-top: 39vh;
+    margin-left: 41.6vw;
+}
+
 :root {
     --corPrincipal: #f9ca24;
     --corSecundaria: #111;
