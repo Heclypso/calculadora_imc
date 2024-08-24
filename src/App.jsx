@@ -1,24 +1,15 @@
 // 1. Importação 
 // 2. Código do componente
-import { useState } from "react";
 
-import Perfil from "./components/Perfil";
-import ReposList from "./components/ReposList";
+import ImcHeader from "./components/ImcHeader";
+import ImcBody from "./components/ImcBody"
 
 function App() {
- const [nomeUsuario, setNomeUsuario ] = useState('');
-
  return (
   <>
-  <input type="text" placeholder="Digite um nome de usuario do GitHub" onBlur={(e) => setNomeUsuario(e.target.value)} />
-  {nomeUsuario.length > 4 && (
-    <>
-    <Perfil nomeUsuario={nomeUsuario}/>
-    <ReposList nomeUsuario={nomeUsuario}/>
-    </>
-  )} 
+  <ImcHeader/>
+  <ImcBody/>
   </>
-
  )
 }
 

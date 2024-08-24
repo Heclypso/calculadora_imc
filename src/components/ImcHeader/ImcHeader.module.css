@@ -1,0 +1,28 @@
+header {
+    background-color: var(--corPrimaria);
+}
+
+header input {
+    display: block;
+    width: 320px;
+    font-size: 16px;
+    height: 22px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+p {
+    text-align: center;
+    color: var(--corSecundaria);
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: var(--corSecundaria);
+    text-align: center;
+    padding: 20px 10px;
+}
