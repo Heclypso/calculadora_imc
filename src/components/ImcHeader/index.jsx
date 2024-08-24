@@ -18,7 +18,6 @@ const ImcHeader = () => {
                 const imcFormatado = imcCalculado.toFixed(1);
                 setImc(imcFormatado);
 
-                // Definir a classificação com base no IMC
                 if (imcCalculado < 18.5) {
                     setClassificacao('Baixo peso');
                 } else if (imcCalculado >= 18.5 && imcCalculado <= 24.9) {
